@@ -1,8 +1,8 @@
 [
   {
-    "repository": "CyanogenMod/android_kernel_cyanogen_msm8916",
+    "repository": "Radium_yu",
     "target_path": "kernel/cyanogen/msm8916",
-    "branch":      "cm-12.1",
+    "branch":      "5.1",
     "remote": "github"
   },
   {
