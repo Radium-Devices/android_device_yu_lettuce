@@ -14,10 +14,10 @@
 
 $(call inherit-product, device/yu/lettuce/full_lettuce.mk)
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit some common radium stuff.
+$(call inherit-product, vendor/radium/config/common_full_phone.mk)
 
-PRODUCT_NAME := cm_lettuce
+PRODUCT_NAME := radium_lettuce
 BOARD_VENDOR := yu
 PRODUCT_DEVICE := lettuce
 
