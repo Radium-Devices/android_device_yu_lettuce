@@ -26,6 +26,9 @@ else
 TARGET_KERNEL_CONFIG := cyanogenmod_lettuce_defconfig
 endif
 
+TARGET_GCC_VERSION_EXP := 4.9-sm
+ROM_OPTIS_64 := true
+
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
 
 # Camera
