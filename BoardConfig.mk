@@ -26,7 +26,7 @@ else
 TARGET_KERNEL_CONFIG := cyanogenmod_lettuce_defconfig
 endif
 
-ROM_OPTIS_64 := true
+KBUILD_BUILD_USER := pranav01
 
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
 
